@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parking Tracker – Privacy Policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b1f24; --muted:#59636e; --line:#d8dee4; --accent:#2f6fed; --card:#f6f8fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1317; --fg:#e6edf3; --muted:#9aa7b4; --line:#2b333b; --accent:#7aa7ff; --card:#161b21; }
+  }
+  html { color-scheme: light dark; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:28px 18px 60px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  h2 { font-size:1.2rem; margin:34px 0 8px; padding-top:6px; border-top:1px solid var(--line); }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  ul { padding-left:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin:14px 0; }
+  .table-wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:520px; }
+  th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Parking Tracker (Android app) · Last updated: November 23, 2026</p>
+
+  <div class="card">
+    <strong>In short:</strong> Parking Tracker uses your location to find parking near you and to give directions.
+    You need an account (email, username and password) to use the app. Your saved spots, car location and history
+    stay on your phone. We do not sell your data, and the app has no ads and no analytics. You can delete your
+    account at any time from inside the app.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Parking Tracker is developed by [YOUR FULL NAME] (“we”, “us”). The app helps drivers find parking within
+  walking distance of where they are or where they are going.</p>
+  <p>Contact: <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></p>
+
+  <h2>2. Information we collect</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Information</th><th>Why</th><th>Where it goes</th></tr>
+    <tr>
+      <td><strong>Account details:</strong> email address, username, and your password.</td>
+      <td>To create your account and log you in.</td>
+      <td>Supabase Authentication. Your password is stored only as a secure hash and is never kept in the app. We cannot read it.</td>
+    </tr>
+    <tr>
+      <td><strong>Precise location</strong> (GPS), only while you use the app.</td>
+      <td>To find parking near you, show routes and give voice directions.</td>
+      <td>Used on your phone. The coordinates needed for a request are sent to the map services in section 4 (for example, to look up nearby parking or a route). We do not keep a location history on our servers.</td>
+    </tr>
+    <tr>
+      <td><strong>Parking reports</strong> (optional): the parking’s ID, “full” or “available”, the parking’s location, a random device code and the time.</td>
+      <td>To tell other drivers if a parking is full or available.</td>
+      <td>Our Supabase database. These reports are only sent if you turn on “Share my reports”. They do not include your name or email.</td>
+    </tr>
+    <tr>
+      <td><strong>Data kept only on your phone:</strong> saved spots, car location and notes, parking history, favorites, ratings, places such as Home and Work, settings and your login session.</td>
+      <td>So the app works and remembers your choices.</td>
+      <td>Stays on your phone. We do not receive it. It is removed when you uninstall the app.</td>
+    </tr>
+  </table>
+  </div>
+  <p>We do not use advertising or analytics tools, and we do not collect your contacts, photos or files.</p>
+
+  <h2>3. How we use your information</h2>
+  <ul>
+    <li>To run the app: log you in, find and rank parking, show routes and give directions.</li>
+    <li>To show recent “full” or “available” reports from other drivers.</li>
+    <li>To protect the service from misuse (for example, limiting how often reports can be sent).</li>
+  </ul>
+  <p>We do not sell your personal information and we do not use it for advertising.</p>
+
+  <h2>4. Services that receive data</h2>
+  <p>To work, the app talks to these services. They receive the information needed for each request, such as map
+  coordinates and your IP address.</p>
+  <ul>
+    <li><strong>Supabase</strong> (accounts and parking reports). <a href="https://supabase.com/privacy">Privacy policy</a></li>
+    <li><strong>OpenStreetMap services</strong> (map tiles, place search and addresses, nearby parking data, and walking and driving routes).
+      <a href="https://osmfoundation.org/wiki/Privacy_Policy">Privacy policy</a></li>
+    <li><strong>Open-Meteo</strong> (rain forecast for a location). <a href="https://open-meteo.com/en/terms">Terms and privacy</a></li>
+    <li><strong>Google Maps</strong> only if you tap “Open in Google Maps”. This opens the Google Maps app or website with your destination.</li>
+  </ul>
+  <p>Voice directions use your phone’s built-in text-to-speech engine.</p>
+
+  <h2>5. Where your data is stored</h2>
+  <p>Account and report data are stored in a Supabase project hosted in Sydney, Australia. By using the app you
+  understand that this data is processed outside your country.</p>
+
+  <h2>6. How long we keep data, and deletion</h2>
+  <ul>
+    <li><strong>Account:</strong> kept until you delete it. You can delete it in the app (Settings, then tap your name, then “Delete account”), or by following the steps on our
+      <a href="delete-account.html">account deletion page</a>. Deleting removes your email, username and login from our server.</li>
+    <li><strong>Parking reports:</strong> they are anonymous and not linked to your account, so they stay after you delete your account. They are only used to show recent parking availability.</li>
+    <li><strong>Data on your phone:</strong> removed when you uninstall the app, or when you choose “Also erase my spots, car, history and settings on this phone” while deleting your account.</li>
+  </ul>
+
+  <h2>7. Your rights</h2>
+  <p>You can ask us to access, correct or delete the personal data we hold about you, and you can object to or
+  limit how we use it. If you are in the Philippines, these rights come from the Data Privacy Act of 2012
+  (Republic Act No. 10173). To make a request, email <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a> from the
+  address you signed up with. You can also complain to the National Privacy Commission.</p>
+
+  <h2>8. Security</h2>
+  <p>Data is sent over encrypted connections (HTTPS). Passwords are stored as hashes. No system is completely
+  secure, so we cannot guarantee absolute security. Please use a strong, unique password.</p>
+
+  <h2>9. Children</h2>
+  <p>Parking Tracker is meant for drivers and is not directed to children under 13. We do not knowingly collect
+  personal data from children under 13. If you believe a child has created an account, contact us and we will delete it.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>We may update this policy when the app changes. We will change the “Last updated” date at the top, and for
+  important changes we will tell you in the app.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions or requests: <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></p>
+</main>
+</body>
+</html>
